@@ -1,2 +1,5 @@
-apt update 
-apt upgrade 
+-apt update 
+-apt upgrade 
+-git clone https://github.com/toxicHacker703/ZeroSpoof/tree/main
+-pip install -r requirements.txt
+-

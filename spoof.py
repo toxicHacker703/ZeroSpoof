@@ -1,5 +1,5 @@
 
-#Tool By Crazy | @PokiePy •
+#Tool By ZEROHACKER | @CX_GOD•
 
 import requests
 import sys
@@ -23,7 +23,7 @@ def slow_type(text, delay=0.02):
     print()
 
 def banner():
-    ascii_banner = pyfiglet.figlet_format("SPOOFER", font="slant")
+    ascii_banner = pyfiglet.figlet_format("ZERO MAIL", font="slant")
     console.print(Panel.fit(Text(ascii_banner, style="bold red"), 
                             title="", border_style="red"))
 
@@ -77,6 +77,6 @@ if __name__ == "__main__":
 
         send_mail(to, sender_name, subject, message)  
 
-        console.print(Panel.fit("[bold red]TOOL BY CRAZY | @PokiePy •[/bold red]", border_style="red"))  
+        console.print(Panel.fit("[bold red]MADE BY ZERO HACKER| @CX_GOD •[/bold red]", border_style="red"))  
     except KeyboardInterrupt:  
         console.print("\n[bold red][!] Exiting... Goodbye![/bold red]\n")
